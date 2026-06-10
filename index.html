@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta name="description" content="Microsite Pernak-pernik3 - Kumpulan instrumen dan perangkat supervisi">
+    <meta name="author" content="Pernak-pernik3">
+    <title>Pernak-pernik3 | Microsite Supervisi</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon (optional - menggunakan emoji) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📁</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <!-- PROFILE SECTION -->
+        <div class="profile-section">
+            <div class="profile-avatar-wrapper">
+                <img class="profile-avatar" 
+                     src="images/profile/avatar.svg" 
+                     alt="Profile Avatar"
+                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ccircle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%23ca1d13%22/%3E%3Ctext x=%2250%22 y=%2265%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2240%22%3E📁%3C/text%3E%3C/svg%3E'">
+            </div>
+            <h1 class="profile-title">Pernak-pernik3</h1>
+            <p class="profile-description">Kumpulan instrumen dan perangkat supervisi</p>
+        </div>
+
+        <!-- LINKS SECTION -->
+        <div class="links-section">
+            <!-- Link Card 1: FORMAT INSTRUMEN SUPERVISI -->
+            <div class="link-card" data-index="1">
+                <a href="https://docs.google.com/document/d/1RyJsVkSLIq7cu6X3JnYqOviakkGGgPX5/edit?usp=sharing" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="link-button button-shake">
+                    <div class="link-icon">
+                        <img src="images/icons/document.svg" alt="Document Icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22white%22 stroke-width=%222%22%3E%3Cpath d=%22M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z%22/%3E%3Cpolyline points=%2214 2 14 8 20 8%22/%3E%3C/svg%3E'">
+                    </div>
+                    <span class="link-text">FORMAT INSTRUMEN SUPERVISI</span>
+                </a>
+            </div>
+
+            <!-- Link Card 2: KANTONG PENGUMPULAN PERANGKAT SUPERVISI -->
+            <div class="link-card" data-index="2">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeudSP2k9Q_hxTbPad8oNliJQHuJBnGCdn5XN7iL8PNTWVufA/viewform" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="link-button">
+                    <div class="link-icon">
+                        <img src="images/icons/form.svg" alt="Form Icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22white%22 stroke-width=%222%22%3E%3Crect x=%222%22 y=%224%22 width=%2220%22 height=%2216%22 rx=%222%22/%3E%3Cpath d=%22m22 7-8.5 5.5a2 2 0 0 1-3 0L2 7%22/%3E%3C/svg%3E'">
+                    </div>
+                    <span class="link-text">KANTONG PENGUMPULAN PERANGKAT SUPERVISI</span>
+                </a>
+            </div>
+
+            <!-- Link Card 3: PENGECEKAN PENGUMPULAN PERANGKAT SUPERVISI -->
+            <div class="link-card" data-index="3">
+                <a href="https://docs.google.com/spreadsheets/d/1Q0vazEAhOnJJCINstYm0azxGWG1tCVw5cv9EhHRFJPA/edit?usp=sharing" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="link-button">
+                    <div class="link-icon">
+                        <img src="images/icons/spreadsheet.svg" alt="Spreadsheet Icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22white%22 stroke-width=%222%22%3E%3Cpath d=%22M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z%22/%3E%3Cpolyline points=%2214 2 14 8 20 8%22/%3E%3Cline x1=%228%22 y1=%2216%22 x2=%2216%22 y2=%2216%22/%3E%3Cline x1=%228%22 y1=%2212%22 x2=%2216%22 y2=%2212%22/%3E%3C/svg%3E'">
+                    </div>
+                    <span class="link-text">PENGECEKAN PENGUMPULAN PERANGKAT SUPERVISI (OLEH SUPERVISOR)</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- MEDIA/SPOILER SECTION -->
+        <div class="media-section">
+            <button id="spoilerButton" class="spoiler-trigger">
+                <img src="images/icons/play.svg" alt="Play Icon" class="spoiler-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22white%22 stroke-width=%222%22%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%2210%22/%3E%3Cpolyline points=%2212 6 12 12 16 14%22/%3E%3C/svg%3E'">
+                <span>RELAX SEJENAK</span>
+            </button>
+            <div id="spoilerContent" class="spoiler-content">
+                <div class="video-wrapper">
+                    <iframe 
+                        id="youtubeVideo"
+                        class="video-iframe"
+                        src="https://www.youtube.com/embed/KybOLQwOKn0?si=9NYa8ujWXF_CCtVm"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p>&copy; 2025 Pernak-pernik3. All rights reserved.</p>
+            <p class="footer-note">Microsite untuk keperluan supervisi</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
